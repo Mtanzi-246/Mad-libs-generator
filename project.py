@@ -70,8 +70,8 @@ def story2(win):
     def final(tl: Toplevel, profession, noun, feeling, emotion,verb):
 
         text = f'''
-            I want to be this {profession} ans yes my name is {noun}. I'm feeling {feeling}
-            super califragilistic and i don't care about {emotion} i have i'm striving for {verb}.
+            I want to be a {profession}. my name is {noun}. I'm feeling {feeling}
+            and i don't care about {emotion} i have i'm striving for {verb}.
 '''
         tk.Label(tl, text="Story: ", font = ("Times New Roman", 13), wraplength=tl.winfo_width()).place(x=160,y=310)
         tk.Label(tl, text=text, font = ("Times New Roman", 13), wraplength=tl.winfo_width()).place(x=0,y=330)
